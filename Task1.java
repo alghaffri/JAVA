@@ -103,11 +103,11 @@ public class Task1 {
 
 			departmentList.add(departmentX);
 			System.out.println("Do you want add another Department 1 if yes");
-			condtion1 = true;
-			condtion2 = true;
+			condtion1 = true; //condtion
+			condtion2 = true; //condtion
 			int option = sc.nextInt();
 			if (option != 1) {
-				condtion = false;
+				condtion = false; //condtion
 				
 				///////////////////////School Details/////////////////
 
