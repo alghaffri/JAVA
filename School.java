@@ -8,7 +8,11 @@ public class School {
 	
 	Department department1 = new Department();
 	
-	
+	public School(String name, int id) {
+		System.out.println("This is "+ name +""+ id);
+		this.name = name;
+		this.id = id;
+	}
 	///////////////////////School Details/////////////////
 
 	public String getName() {
