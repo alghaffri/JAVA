@@ -44,7 +44,7 @@ public class Task1 {
 			System.out.println(cyan+"Enter Department Size");
 			departmentX.setSize(sc.nextInt());
 			System.out.println(brightYellow+" Department Size : " + departmentX.getSize());
-
+                      //////////add while loop////////////// 
 			while (condtion1) {
 				Teacher teacher1 = new Teacher();
 
