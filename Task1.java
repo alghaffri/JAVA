@@ -132,13 +132,13 @@ public class Task1 {
 						System.out.println(cyan+" Teacher id : " + teacher.getTeacherId());
 
 						for (Student student : teacher.studentList) {
-							System.out.println(brightYellow+"Student Name : " + student.getStudentName());
-							System.out.println(brightYellow+" Student Age :" + student.getStudentAge());
+							System.out.println(cyan+"Student Name : " + student.getStudentName());
+							System.out.println(cyan+" Student Age :" + student.getStudentAge());
 
 							for (Course course : student.courseList) {
-								System.out.println(cyan+"Course Name : " + course.getCourseName());
-								System.out.println(cyan+"Course ID : " + course.getCourseId());
-								System.out.println(cyan+"Enter Mark : " + course.mark1.getMark());
+								System.out.println(brightYellow+"Course Name : " + course.getCourseName());
+								System.out.println(brightYellow+"Course ID : " + course.getCourseId());
+								System.out.println(brightYellow+"Enter Mark : " + course.mark1.getMark());
 							}
 						}
 					}
