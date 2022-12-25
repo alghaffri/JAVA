@@ -12,17 +12,17 @@ public class Task1 {
 		Scanner sc = new Scanner(System.in);
 		ArrayList<Department> departmentList = new ArrayList<Department>();
 
-		System.out.println(cyan+ "Enter School Name");  //user add school name
+		System.out.println(cyan+ "Enter School Name");  //user add school name//
 		String name = sc.next();
 		school.setName(name);
 		System.out.println(brightYellow+"School Name :" + school.getName());
 
-		System.out.println(cyan+"Enter School location"); //user add school location
+		System.out.println(cyan+"Enter School location"); //user add school location//
 		String location = sc.next();
 		school.setLocation(location);
 		System.out.println(brightYellow+"School location :" + school.getLocation());
 
-		System.out.println(cyan+"Enter School ID");
+		System.out.println(cyan+"Enter School ID");//user add School ID//
 		int id = sc.nextInt();
 		school.setId(id);
 		System.out.println(brightYellow+"School ID :" + school.getId());
