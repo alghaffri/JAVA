@@ -14,7 +14,7 @@ public class School {
 	
 	
 	
-	
+	///////////////////////School Details/////////////////
 
 	public String getName() {
 		return name;
