@@ -116,7 +116,7 @@ public class Task1 {
 				System.out.println(cyan+"School ID is :" + school.getId());
 				System.out.println(cyan+"====== ========= ======");
 
-
+                            ///////// for each loop //////////// 
 				for (Department department : departmentList) {
 					System.out.println(brightYellow+"===========>>>  Department Info  <<< ===========");
 					System.out.println(brightYellow+" Department Name : " + department.getName());
