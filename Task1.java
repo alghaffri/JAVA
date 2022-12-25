@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Task1 {
-
 	public static void main(String[] args) {
         String cyan= "\u001b[36m";
         String brightYellow= "\u001b[93m";
@@ -36,7 +35,6 @@ public class Task1 {
 		while (condtion) {
 
 			Department departmentX = new Department();
-
 			System.out.println(cyan+"Enter Department Name");
 			departmentX.setName(sc.next());
 
@@ -56,7 +54,6 @@ public class Task1 {
 				departmentX.teacherList.add(teacher1);
 
 				while (condtion2) {
-
 					Student student1 = new Student();
 
 					System.out.println(cyan+"Enter Student Name");
@@ -95,7 +92,6 @@ public class Task1 {
 					condtion3 = true;
 
 				}
-
 				System.out.println("Do you want to add another Teacher 1 if yes");
 				if (sc.nextInt() != 1) {
 					condtion1 = false;
