@@ -10,6 +10,12 @@ public class Department {
 	ArrayList<Teacher> teacherList = new ArrayList<Teacher>();
 	
 	
+	Department(String name,int size)
+	{
+		System.out.println("This is first Department" + name +""+ size);
+	this.name = name;
+	this.size = size;
+	}
 	public String getName() {
 		return name;
 	}
