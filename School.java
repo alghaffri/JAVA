@@ -9,11 +9,6 @@ public class School {
 	Department department1 = new Department();
 	
 	
-	
-	
-	
-	
-	
 	///////////////////////School Details/////////////////
 
 	public String getName() {
@@ -21,41 +16,26 @@ public class School {
 	}
 
 
-
-
 	public void setName(String name) {
 		this.name = name;
 	}
-
-
-
 
 	public String getLocation() {
 		return location;
 	}
 
-
-
-
 	public void setLocation(String location) {
 		this.location = location;
 	}
-
-
-
 
 	public int getId() {
 		return id;
 	}
 
 
-
-
 	public void setId(int id) {
 		this.id = id;
 	}
-
-
 
 
 	void DisplayDepartment(String DepartmentName) {
